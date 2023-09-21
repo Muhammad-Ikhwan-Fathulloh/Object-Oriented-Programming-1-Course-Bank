@@ -15,3 +15,10 @@ Bank Mata Kuliah Pemograman Berorientasi Obyek 1
   <li>Variabel dalam kelas</li>
   <li>Konstruktor dan destruktor</li>
 </ul>
+
+## Sesi 3: Enkapsulasi
+<ul>
+  <li>Pengertian enkapsulasi</li>
+  <li>Hak akses (public, private, protected)</li>
+  <li>Metode get dan set</li>
+</ul>
