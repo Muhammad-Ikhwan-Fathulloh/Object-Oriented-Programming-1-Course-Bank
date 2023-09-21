@@ -3,5 +3,7 @@ Bank Mata Kuliah Pemograman Berorientasi Obyek 1
 
 ## Sesi 1: Pengenalan Pemrograman Berorientasi Obyek (PBO)
 <ul>
-  <lo>Konsep dasar PBO</lo>
+  <li>Konsep dasar PBO</li>
+  <li>Keuntungan PBO</li>
+  <li>Bahasa pemrograman berorientasi obyek</li>
 </ul>
