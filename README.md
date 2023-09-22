@@ -22,3 +22,17 @@ Bank Mata Kuliah Pemograman Berorientasi Obyek 1
   <li>Hak akses (public, private, protected)</li>
   <li>Metode get dan set</li>
 </ul>
+
+## Sesi 4: Pewarisan (Inheritance)
+<ul>
+  <li>Pengertian pewarisan</li>
+  <li>Kelas turunan (subclass) dan kelas induk (superclass)</li>
+  <li>Overriding dan overloading</li>
+</ul>
+
+## Sesi 5: Polimorfisme
+<ul>
+  <li>Pengertian polimorfisme</li>
+  <li>Metode virtual dan abstrak</li>
+  <li>Late binding</li>
+</ul>
