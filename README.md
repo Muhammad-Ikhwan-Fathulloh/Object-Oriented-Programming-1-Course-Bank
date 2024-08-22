@@ -1,4 +1,4 @@
-# Object-Oriented-Programming-Course-Bank-1
+# Object-Oriented-Programming-1-Course-Bank
 Bank Mata Kuliah Pemograman Berorientasi Obyek 1
 
 ## Sesi 1: Pengenalan Pemrograman Berorientasi Obyek (PBO)
