@@ -21,3 +21,18 @@ Bank Mata Kuliah Pemograman Berorientasi Obyek 1
 
 ## Sesi 7: Komposisi
 <a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Object-Oriented-Programming-1-Course-Bank/tree/main/Composition">Lihat</a>
+
+## Sesi 8: Mini Proyek
+<a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Object-Oriented-Programming-1-Course-Bank/tree/main/MiniProject">Lihat</a>
+
+## Sesi 9: Koneksi Database
+<a href="">Lihat</a>
+
+## Sesi 10: Graphic User Interface (GUI)
+<a href="">Lihat</a>
+
+## Sesi 11: JavaFX
+<a href="">Lihat</a>
+
+## Sesi 12: Proyek
+<a href="">Lihat</a>
