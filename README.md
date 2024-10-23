@@ -1,6 +1,12 @@
 # Object-Oriented-Programming-1-Course-Bank
 Bank Mata Kuliah Pemograman Berorientasi Obyek 1
 
+# Git dan Github
+Git <a href="https://git-scm.com/">Install</a>
+Github <a href="https://github.com/">Buat Akun</a>
+<br>
+<a href="https://www.youtube.com/watch?v=rzuhHzFuvjY">Youtube</a>
+
 ## Sesi 1: Pengenalan Pemrograman Berorientasi Obyek (PBO)
 <a href="https://youtu.be/QBKUT6EZjzM?si=LajfqIkGYCgKBjA4">Youtube</a>
 <a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Object-Oriented-Programming-1-Course-Bank/tree/main/Introduction">Lihat Penjelasan</a>
