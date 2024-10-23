@@ -28,7 +28,7 @@ Bank Mata Kuliah Pemograman Berorientasi Obyek 1
 <a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Object-Oriented-Programming-1-Course-Bank/tree/main/MiniProject">Lihat Penjelasan</a>
 
 ## Sesi 9: Koneksi Database
-<a href="">Lihat Penjelasan</a>
+<a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Object-Oriented-Programming-1-Course-Bank/tree/main/Database">Lihat Penjelasan</a>
 
 ## Sesi 10: Graphic User Interface (GUI)
 <a href="">Lihat Penjelasan</a>
