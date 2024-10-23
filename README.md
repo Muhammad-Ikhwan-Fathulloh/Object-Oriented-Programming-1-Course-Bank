@@ -2,9 +2,11 @@
 Bank Mata Kuliah Pemograman Berorientasi Obyek 1
 
 ## Sesi 1: Pengenalan Pemrograman Berorientasi Obyek (PBO)
+<a href="https://youtu.be/QBKUT6EZjzM?si=LajfqIkGYCgKBjA4">Youtube</a>
 <a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Object-Oriented-Programming-1-Course-Bank/tree/main/Introduction">Lihat</a>
 
 ## Sesi 2: Kelas dan Objek
+<a href="https://youtu.be/hWuVshzyrUg?si=UOglRUyxEMv9RQBk">Youtube</a>
 <a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Object-Oriented-Programming-1-Course-Bank/tree/main/ClassAndObject">Lihat</a>
 
 ## Sesi 3: Enkapsulasi
