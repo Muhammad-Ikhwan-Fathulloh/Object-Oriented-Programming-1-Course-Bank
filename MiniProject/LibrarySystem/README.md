@@ -5,22 +5,23 @@ Proyek ini melibatkan 4 pilar OOP: **Encapsulation**, **Abstraction**, **Inherit
 ## 1. Encapsulation (Enkapsulasi)
 Menerapkan **Encapsulation** dengan menyembunyikan data dalam kelas dan hanya memperbolehkan akses melalui getter dan setter. Data seperti judul buku, penulis, dan status ketersediaan buku diisolasi dan hanya dapat diakses melalui metode yang ditentukan, bukan langsung dari variabel.
 
-<a href="">Lihat Kode</a>
+<a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Object-Oriented-Programming-1-Course-Bank/blob/main/MiniProject/LibrarySystem/Book.java">Lihat Kode</a>
 
 ## 2. Abstraction (Abstraksi)
 Menggunakan **Abstraction** dengan mendefinisikan `LibraryMember` sebagai kelas abstrak. Kelas ini menyimpan informasi dasar tentang anggota perpustakaan seperti nama dan ID anggota, serta memiliki metode umum untuk meminjam buku, tetapi tidak memedulikan detail implementasinya. Kelas abstrak ini tidak bisa diinstansiasi, tetapi menjadi dasar untuk kelas turunan.
 
-<a href="">Lihat Kode</a>
+<a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Object-Oriented-Programming-1-Course-Bank/blob/main/MiniProject/LibrarySystem/LibraryMember.java">Lihat Kode</a>
 
 ## 3. Inheritance (Pewarisan)
 Menerapkan **Inheritance** dengan membuat kelas `Student` dan `Teacher` yang mewarisi sifat dari kelas `LibraryMember`. Kedua kelas turunan ini menggunakan atribut dan metode yang diwariskan dari `LibraryMember`, tetapi menambahkan perilaku spesifik untuk masing-masing jenis anggota, seperti aturan yang berbeda dalam peminjaman buku.
 
-<a href="">Lihat Kode</a>
+<a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Object-Oriented-Programming-1-Course-Bank/blob/main/MiniProject/LibrarySystem/Student.java">Lihat Kode Student</a>
+<a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Object-Oriented-Programming-1-Course-Bank/blob/main/MiniProject/LibrarySystem/Teacher.java">Lihat Kode Teacher</a>
 
 ## 4. Polymorphism (Polimorfisme)
 **Polymorphism** ditunjukkan ketika objek `LibraryMember` digunakan secara polimorfis, di mana objek dari kelas `Student` dan `Teacher` dapat diperlakukan sebagai objek dari tipe dasar `LibraryMember`. Ini memungkinkan kita menggunakan metode umum seperti `borrowBook` pada berbagai tipe objek, tanpa mengetahui detail tipe sebenarnya dari objek tersebut.
 
-<a href="">Lihat Kode</a>
+<a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Object-Oriented-Programming-1-Course-Bank/blob/main/MiniProject/LibrarySystem/LibrarySystem.java">Lihat Kode</a>
 
 ---
 
