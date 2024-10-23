@@ -38,6 +38,7 @@ Github <a href="https://github.com/">Buat Akun</a>
 <a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Object-Oriented-Programming-1-Course-Bank/tree/main/Database">Lihat Penjelasan</a>
 
 ## Sesi 10: Graphic User Interface (GUI)
+<a href="https://netbeans.apache.org/tutorial/main/kb/docs/java/gui-functionality/">Dokumentasi</a>
 <a href="">Lihat Penjelasan</a>
 
 ## Sesi 11: JavaFX
