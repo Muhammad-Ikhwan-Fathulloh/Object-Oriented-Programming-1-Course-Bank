@@ -1,8 +1,9 @@
 # Object-Oriented-Programming-1-Course-Bank
 Bank Mata Kuliah Pemograman Berorientasi Obyek 1
 
-# Git dan Github
+## Git dan Github
 Git <a href="https://git-scm.com/">Install</a>
+<br>
 Github <a href="https://github.com/">Buat Akun</a>
 <br>
 <a href="https://www.youtube.com/watch?v=rzuhHzFuvjY">Youtube</a>
