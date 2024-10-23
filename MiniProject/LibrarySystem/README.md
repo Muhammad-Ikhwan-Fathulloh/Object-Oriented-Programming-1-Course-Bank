@@ -33,4 +33,14 @@ Menerapkan **Inheritance** dengan membuat kelas `Student` dan `Teacher` yang mew
 - **Polymorphism**: Objek dari kelas `Student` dan `Teacher` dapat digunakan sebagai tipe `LibraryMember` dalam metode `borrowBook`, memungkinkan penggunaan fleksibel dari berbagai jenis objek dengan cara yang seragam.
 
 ## Flowchart
+
 [![](https://mermaid.ink/img/pako:eNp1kcFuwjAMhl_FymmTQLv3sIlSYJPGLuWytRzc1qURbYxSZwhR3n2hLdOEtJxs_1_i3_FZ5VyQClRZ8zGv0ApsotSAP7PkXWcW7WlNTUZ2C9Ppc6dNRVZL20GYxOIKMrId8Tt9nmwIc5-NenjVIXrI2Fo-hsz7x0GY_ydEvbBIrqXxkUXfZF5Rvgf8Rl1jpmstpw6WZ93OhkpNL5cBX_b4J3k7qyQmAWzBGbxh27_UB3fw2vcCwwL30Ko383Yb-mkcDgbXLUhFPvZG1UQ1ZBvUhf_V8_VyqrzYUKoCHxZUoqslVam5eBSdcHwyuQrEOpooy25XqaDEuvWZOxQoFGncWWxuyAHNF3PzC1Ghhe16WGO_zcsPxgWaRw?type=png)](https://mermaid.live/edit#pako:eNp1kcFuwjAMhl_FymmTQLv3sIlSYJPGLuWytRzc1qURbYxSZwhR3n2hLdOEtJxs_1_i3_FZ5VyQClRZ8zGv0ApsotSAP7PkXWcW7WlNTUZ2C9Ppc6dNRVZL20GYxOIKMrId8Tt9nmwIc5-NenjVIXrI2Fo-hsz7x0GY_ydEvbBIrqXxkUXfZF5Rvgf8Rl1jpmstpw6WZ93OhkpNL5cBX_b4J3k7qyQmAWzBGbxh27_UB3fw2vcCwwL30Ko383Yb-mkcDgbXLUhFPvZG1UQ1ZBvUhf_V8_VyqrzYUKoCHxZUoqslVam5eBSdcHwyuQrEOpooy25XqaDEuvWZOxQoFGncWWxuyAHNF3PzC1Ghhe16WGO_zcsPxgWaRw)
+
+### Penjelasan Flowchart
+
+1. **LibraryMember** adalah kelas induk yang diwarisi oleh kelas **Student** dan **Teacher**.
+2. Kedua kelas turunan ini menggunakan metode `borrowBook()`.
+3. Metode `borrowBook()` memanggil kelas **Book**, di mana ketersediaan buku diperiksa.
+4. Jika buku **tersedia**, status buku diubah menjadi **tidak tersedia**, dan anggota perpustakaan (student atau teacher) berhasil meminjam buku.
+5. Jika buku **tidak tersedia**, maka muncul pemberitahuan bahwa buku tidak tersedia.
+
