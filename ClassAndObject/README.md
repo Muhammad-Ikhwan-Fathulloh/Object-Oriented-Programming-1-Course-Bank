@@ -1,8 +1,12 @@
 ## **Sesi 2: Kelas dan Objek**
 
+---
+
 ### **Pengertian Kelas dan Objek**  
 - **Kelas** adalah cetak biru untuk membuat objek.
 - **Objek** adalah instance dari kelas.
+
+---
 
 ### **Pembuatan Kelas dan Objek**
 ```java
@@ -24,8 +28,12 @@ public class Main {
 }
 ```
 
+---
+
 ### **Variabel dalam Kelas**  
 Variabel yang dideklarasikan dalam kelas disebut **atribut** atau **properti**.
+
+---
 
 ### **Konstruktor dan Destruktor**  
 - **Konstruktor** digunakan untuk menginisialisasi objek.

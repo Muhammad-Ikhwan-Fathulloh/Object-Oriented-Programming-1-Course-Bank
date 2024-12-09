@@ -1,8 +1,12 @@
 # Sesi 7: Komposisi
 
+---
+
 ## Pengertian Komposisi
 
 Komposisi adalah hubungan antara objek di mana satu objek memiliki atau terdiri dari objek lain.
+
+---
 
 ## Contoh Komposisi
 

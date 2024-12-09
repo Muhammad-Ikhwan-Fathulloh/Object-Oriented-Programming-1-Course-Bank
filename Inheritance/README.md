@@ -1,7 +1,11 @@
 ## **Sesi 4: Pewarisan (Inheritance)**
 
+---
+
 ### **Pengertian Pewarisan**
 Pewarisan adalah mekanisme di mana satu kelas dapat mewarisi atribut dan metode dari kelas lain.
+
+---
 
 ### **Kelas Turunan (Subclass) dan Kelas Induk (Superclass)**
 ```java
@@ -17,6 +21,8 @@ class Mobil extends Kendaraan {
     }
 }
 ```
+
+---
 
 ### **Overriding dan Overloading**
 

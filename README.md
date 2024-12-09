@@ -1,74 +1,75 @@
 # Object-Oriented-Programming-1-Course-Bank
-Bank Mata Kuliah Pemograman Berorientasi Obyek 1
+Bank Mata Kuliah Pemrograman Berorientasi Obyek 1
 
 ---
 
 ## Git dan Github
-Git <a href="https://git-scm.com/">Install</a>
+[Git](https://git-scm.com/) - Install
 <br>
-Github <a href="https://github.com/">Buat Akun</a>
+[Github](https://github.com/) - Buat Akun
 <br>
-<a href="https://www.youtube.com/watch?v=rzuhHzFuvjY">Youtube</a>
+[Youtube](https://www.youtube.com/watch?v=rzuhHzFuvjY)
 
 ---
 
 ## Sesi 1: Pengenalan Pemrograman Berorientasi Obyek (PBO)
-<a href="https://youtu.be/QBKUT6EZjzM?si=LajfqIkGYCgKBjA4">Youtube</a>
-<a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Object-Oriented-Programming-1-Course-Bank/tree/main/Introduction">Lihat Penjelasan</a>
+[Youtube](https://youtu.be/QBKUT6EZjzM?si=LajfqIkGYCgKBjA4)
+[Lihat Materi](material.html?pertemuan=1&materi=Introduction/README.md)  
 
 ---
 
 ## Sesi 2: Kelas dan Objek
-<a href="https://youtu.be/hWuVshzyrUg?si=UOglRUyxEMv9RQBk">Youtube</a>
-<a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Object-Oriented-Programming-1-Course-Bank/tree/main/ClassAndObject">Lihat Penjelasan</a>
+[Youtube](https://youtu.be/hWuVshzyrUg?si=UOglRUyxEMv9RQBk)
+[Lihat Materi](material.html?pertemuan=2&materi=ClassAndObject/README.md)  
 
 ---
 
 ## Sesi 3: Enkapsulasi
-<a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Object-Oriented-Programming-1-Course-Bank/tree/main/Encapsulation">Lihat Penjelasan</a>
+[Lihat Materi](material.html?pertemuan=3&materi=Encapsulation/README.md)  
 
 ---
 
 ## Sesi 4: Pewarisan (Inheritance)
-<a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Object-Oriented-Programming-1-Course-Bank/tree/main/Inheritance">Lihat Penjelasan</a>
+[Lihat Materi](material.html?pertemuan=4&materi=Inheritance/README.md)  
 
 ---
 
 ## Sesi 5: Polimorfisme
-<a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Object-Oriented-Programming-1-Course-Bank/tree/main/Polimorfisme">Lihat Penjelasan</a>
+[Lihat Materi](material.html?pertemuan=5&materi=Polimorfisme/README.md)  
 
 ---
 
 ## Sesi 6: Abstraksi
-<a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Object-Oriented-Programming-1-Course-Bank/tree/main/Abstract">Lihat Penjelasan</a>
+[Lihat Materi](material.html?pertemuan=6&materi=Abstract/README.md)  
+
 
 ---
 
 ## Sesi 7: Komposisi
-<a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Object-Oriented-Programming-1-Course-Bank/tree/main/Composition">Lihat Penjelasan</a>
+[Lihat Materi](material.html?pertemuan=7&materi=Composition/README.md)  
 
 ---
 
 ## Sesi 8: Mini Proyek
-<a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Object-Oriented-Programming-1-Course-Bank/tree/main/MiniProject">Lihat Penjelasan</a>
+[Lihat Materi](material.html?pertemuan=8&materi=MiniProject/LibrarySystem/README.md)  
 
 ---
 
 ## Sesi 9: Koneksi Database
-<a href="https://github.com/Muhammad-Ikhwan-Fathulloh/Object-Oriented-Programming-1-Course-Bank/tree/main/Database">Lihat Penjelasan</a>
+[Lihat Materi](material.html?pertemuan=9&materi=Database/README.md)  
 
 ---
 
 ## Sesi 10: Graphic User Interface (GUI)
-<a href="https://netbeans.apache.org/tutorial/main/kb/docs/java/gui-functionality/">Dokumentasi</a>
-<a href="">Lihat Penjelasan</a>
+[Dokumentasi NetBeans](https://netbeans.apache.org/tutorial/main/kb/docs/java/gui-functionality/)
+[Lihat Penjelasan](#)
 
 ---
 
 ## Sesi 11: JavaFX
-<a href="">Lihat Penjelasan</a>
+[Lihat Penjelasan](#)
 
 ---
 
 ## Sesi 12: Proyek
-<a href="">Lihat Penjelasan</a>
+[Lihat Penjelasan](#)

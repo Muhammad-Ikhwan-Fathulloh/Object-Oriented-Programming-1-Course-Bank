@@ -1,8 +1,12 @@
 # Sesi 6: Abstraksi
 
+---
+
 ## Pengertian Abstraksi
 
 Abstraksi adalah proses menyembunyikan detail implementasi dan hanya menampilkan fitur penting dari objek.
+
+---
 
 ## Kelas Abstrak dan Antarmuka (Interface)
 
@@ -20,6 +24,8 @@ class Kucing extends Hewan {
     }
 }
 ```
+
+---
 
 ### Antarmuka (Interface)
 Antarmuka adalah kelas abstrak yang hanya dapat memiliki metode abstrak.

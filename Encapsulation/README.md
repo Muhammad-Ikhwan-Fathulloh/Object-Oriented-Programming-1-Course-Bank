@@ -1,12 +1,18 @@
 ## **Sesi 3: Enkapsulasi**
 
+---
+
 ### **Pengertian Enkapsulasi**
 Enkapsulasi adalah konsep menyembunyikan data dan hanya memperbolehkan akses melalui metode tertentu.
+
+---
 
 ### **Hak Akses (Public, Private, Protected)**
 - **public**: dapat diakses dari mana saja.
 - **private**: hanya dapat diakses dalam kelas itu sendiri.
 - **protected**: dapat diakses dalam kelas itu sendiri dan kelas turunan.
+
+---
 
 ### **Metode Get dan Set**
 ```java
