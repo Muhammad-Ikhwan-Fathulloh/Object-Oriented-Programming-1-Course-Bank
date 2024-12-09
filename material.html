@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title id="pageTitle">Pertemuan</title> <!-- Mengubah judul menjadi "Pertemuan" -->
+
+    <!-- Reset and Base Styles -->
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/black.css">
+
+    <!-- Syntax Highlighting Theme -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+    <!-- Custom Styles -->
+    <style>
+        .reveal {
+            font-size: 1.2em; /* Base font size */
+        }
+        section {
+            line-height: 1.6; /* Improve readability */
+            margin: 0 auto;
+            text-align: justify;
+            overflow-wrap: break-word;
+        }
+        table {
+            width: 90%; /* Ensure tables fit slide */
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #333;
+            color: white;
+        }
+        ul, ol {
+            margin-left: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto; /* Ensure images fit */
+        }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <!-- Membaca file markdown eksternal -->
+            <section id="markdownSection" data-separator="^---$" data-separator-vertical="^\n\n"></section>
+        </div>
+    </div>
+
+    <!-- Reveal.js Core Script -->
+    <script src="dist/reveal.js"></script>
+    
+    <!-- Plugins -->
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    
+    <script>
+        // Fungsi untuk mendapatkan parameter dari URL
+        function getParameter(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        // Fungsi untuk mengubah judul dan markdown
+        function setUpPresentation() {
+            const meetingNumber = getParameter("pertemuan") || "1";  // Gunakan parameter pertemuan atau default "1"
+            const markdownFile = getParameter("materi") || "Pertemuan_1.md";  // Gunakan parameter materi atau default
+
+            // Set the page title dynamically as "Pertemuan <nomor>"
+            document.getElementById("pageTitle").innerText = "Pertemuan " + meetingNumber;
+
+            // Set the markdown file to load
+            document.getElementById("markdownSection").setAttribute("data-markdown", markdownFile);
+        }
+
+        // Set Up the Presentation based on URL parameters
+        setUpPresentation();
+
+        // Initialize Reveal.js
+        Reveal.initialize({
+            width: 960,               // Base width
+            height: 700,              // Base height
+            margin: 0.1,              // Slide margin
+            minScale: 0.5,            // Minimum scale
+            maxScale: 1.5,            // Maximum scale
+            hash: true,               // Enable URL hash
+            plugins: [RevealMarkdown, RevealHighlight, RevealNotes], // Load plugins
+            slideNumber: 'c/t',       // Display current slide / total slides
+            markdown: {
+                smartypants: true,    // Enable smart quotes
+                notesSeparator: '^Note:' // Define notes separator
+            }
+        });
+    </script>
+</body>
+</html>
