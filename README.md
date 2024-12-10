@@ -1,5 +1,4 @@
-# Object-Oriented-Programming-1-Course-Bank
-Bank Mata Kuliah Pemrograman Berorientasi Obyek 1
+# Bank Mata Kuliah Pemrograman Berorientasi Obyek 1
 
 ---
 
