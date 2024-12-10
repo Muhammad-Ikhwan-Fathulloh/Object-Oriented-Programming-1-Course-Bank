@@ -65,3 +65,8 @@ public class DatabaseConnection {
 - Pastikan database MySQL berjalan dan dapat diakses.
 - Pastikan informasi URL, username, dan password yang digunakan sudah benar.
 - Jika menggunakan IDE seperti IntelliJ atau Eclipse, pastikan library JDBC telah ditambahkan ke classpath proyek.
+
+---
+
+## Proyek Perpustakaan
+[Lihat Materi](material.html?pertemuan=Database&materi=Database/LibrarySystem/README.md)  
