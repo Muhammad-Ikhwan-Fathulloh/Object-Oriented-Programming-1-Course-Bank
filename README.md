@@ -66,6 +66,7 @@
 ---
 
 ## Sesi 11: JavaFX
+[Dokumentasi NetBeans](https://netbeans.apache.org/tutorial/main/tutorials/nbm-javafx/)
 [Lihat Penjelasan](#)
 
 ---
