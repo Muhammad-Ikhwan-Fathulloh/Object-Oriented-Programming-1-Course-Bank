@@ -37,7 +37,7 @@ Pastikan Anda memiliki driver JDBC untuk database yang Anda gunakan. Untuk MySQL
 
 # Panduan Koneksi JDBC untuk Java di Visual Studio Code
 
-## 1. Persiapan
+## Persiapan
 
 ### a. Install Visual Studio Code
 - Unduh dan install Visual Studio Code dari [VS Code Official Website](https://code.visualstudio.com/).
@@ -59,7 +59,7 @@ Pastikan Anda memiliki driver JDBC untuk database yang Anda gunakan. Untuk MySQL
 
 ---
 
-## 2. Konfigurasi Proyek Java
+## Konfigurasi Proyek Java
 
 ### a. Membuat Proyek Baru
 - Buka VS Code.
