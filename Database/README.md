@@ -12,9 +12,13 @@ Berikut adalah langkah-langkah untuk membuat koneksi ke database menggunakan Jav
 
 Keduanya menyediakan lingkungan pengembangan yang lengkap dengan server web dan database. Pilih salah satu sesuai kebutuhan Anda.
 
+---
+
 ## Langkah 2: Konfigurasi Database dengan phpMyAdmin
 - **phpMyAdmin**: Gunakan [phpMyAdmin](https://www.phpmyadmin.net/) untuk mempermudah pengelolaan database MySQL/MariaDB.  
 - Pastikan Anda dapat mengakses phpMyAdmin melalui Laragon atau XAMPP setelah instalasi. Biasanya diakses melalui `http://localhost/phpmyadmin`.
+
+---
 
 ## Langkah 3: Tambahkan Library JDBC untuk MySQL
 Pastikan Anda memiliki driver JDBC untuk database yang Anda gunakan. Untuk MySQL, Anda bisa mengunduh driver dari [MySQL Connector/J](https://dev.mysql.com/downloads/connector/j/) atau menggunakan Maven dengan menambahkan dependensi berikut di `pom.xml`:
@@ -25,8 +29,80 @@ Pastikan Anda memiliki driver JDBC untuk database yang Anda gunakan. Untuk MySQL
       <groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>
         <version>8.0.32</version>
-      </dependency>
-    </dependencies>
+    </dependency>
+</dependencies>
+```
+
+---
+
+# Panduan Koneksi JDBC untuk Java di Visual Studio Code
+
+## 1. Persiapan
+
+### a. Install Visual Studio Code
+- Unduh dan install Visual Studio Code dari [VS Code Official Website](https://code.visualstudio.com/).
+
+### b. Install JDK
+- Pastikan Anda memiliki JDK terinstal. Unduh dari [Oracle](https://www.oracle.com/java/technologies/javase-downloads.html) atau [OpenJDK](https://openjdk.org/).
+- Verifikasi instalasi JDK dengan menjalankan perintah berikut di terminal:
+
+  ```bash
+  java -version
+  ```
+
+### c. Install Extensions di VS Code
+- Extension Pack for Java: Instal melalui Extension Marketplace di VS Code untuk mendukung pengembangan Java.
+
+### d. Unduh MySQL Connector/J
+- Unduh driver JDBC dari MySQL Connector/J.
+- Atau gunakan Maven untuk menambahkan dependensi.
+
+---
+
+## 2. Konfigurasi Proyek Java
+
+### a. Membuat Proyek Baru
+- Buka VS Code.
+- Buat folder baru untuk proyek Anda.
+- Jalankan perintah berikut di terminal:
+  
+```bash
+mkdir jdbc-example
+cd jdbc-example
+mkdir src
+```
+
+- Buat file baru bernama Main.java di dalam folder src.
+
+### b. Tambahkan Driver MySQL ke Classpath
+#### Jika menggunakan driver .jar manual:
+- Buat folder lib di dalam proyek:
+  
+```bash
+mkdir lib
+```
+
+- Salin file .jar dari MySQL Connector/J ke folder lib.
+- Tambahkan file .jar ke classpath di VS Code:
+  Klik kanan pada proyek > Add Folder to Java Project > pilih folder lib.
+
+#### Jika menggunakan Maven:
+- Buat file pom.xml di root proyek dan tambahkan dependensi berikut:
+
+```bash
+<dependencies>
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>8.0.32</version> <!-- Ganti dengan versi terbaru -->
+    </dependency>
+</dependencies>
+```
+
+- Jalankan perintah berikut untuk mengunduh dependensi Maven:
+
+```bash
+mvn install
 ```
 
 ---
