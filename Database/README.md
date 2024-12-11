@@ -76,6 +76,10 @@ public class DatabaseConnection {
 
 Buat Database dan Tabel di MySQL
 ```sql
+CREATE DATABASE todo_system;
+
+USE todo_system;
+
 CREATE TABLE todos (
     id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
