@@ -89,7 +89,7 @@ mkdir lib
 #### Jika menggunakan Maven:
 - Buat file pom.xml di root proyek dan tambahkan dependensi berikut:
 
-```bash
+```xml
 <dependencies>
     <dependency>
         <groupId>mysql</groupId>
