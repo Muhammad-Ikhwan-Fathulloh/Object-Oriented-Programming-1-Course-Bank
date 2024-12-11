@@ -23,10 +23,10 @@ Pastikan Anda memiliki driver JDBC untuk database yang Anda gunakan. Untuk MySQL
 <dependencies>
     <dependency>
       <groupId>mysql</groupId>
-      <artifactId>mysql-connector-java</artifactId>
-      <version>${mysql.connector.version}</version>
-    </dependency>
-  </dependencies>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>8.0.32</version>
+      </dependency>
+    </dependencies>
 ```
 
 ---
