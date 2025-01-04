@@ -2,10 +2,12 @@
 
 UserView.java
 ```java
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.geometry.Insets;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
 
@@ -25,9 +27,23 @@ public class UserView {
         passwordField.setPromptText("Password");
         
         Button loginButton = new Button("Login");
-        loginButton.setOnAction(e -> {
-            System.out.println(usernameField.getText());
-            System.out.println(passwordField.getText());
+        loginButton.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent e) {
+                System.out.println(usernameField.getText());
+                System.out.println(passwordField.getText());
+                
+                // Inisialisasi Root Layout
+                BorderPane root;
+                root = new BorderPane();
+                
+                // Tambahkan Tampilan TodoView
+                UserView userView = new UserView();
+                root.setCenter(userView.getView());
+                
+                // Buat Scene
+                Scene scene = new Scene(root, 600, 600);
+            }
         });
         
         GridPane form = new GridPane();
@@ -39,6 +55,27 @@ public class UserView {
         
         // Tambahkan ke Root
         root.getChildren().addAll(form);
+        return root;
+    }
+}
+```
+
+```HomeView
+import javafx.geometry.Insets;
+import javafx.scene.layout.VBox;
+import javafx.scene.text.Text;
+
+/**
+ *
+ * @author DELL-STTB-071
+ */
+public class HomeView {
+     public VBox getView() {
+        VBox root = new VBox(10);
+        root.setPadding(new Insets(10));
+        
+        // Tambahkan ke Root
+        root.getChildren().addAll(new Text("Hello World"));
         return root;
     }
 }
