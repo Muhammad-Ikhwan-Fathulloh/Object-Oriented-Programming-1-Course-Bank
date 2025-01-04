@@ -24,11 +24,18 @@ public class UserView {
         TextField passwordField = new TextField();
         passwordField.setPromptText("Password");
         
+        Button loginButton = new Button("Login");
+        loginButton.setOnAction(e -> {
+            System.out.println(usernameField.getText());
+            System.out.println(passwordField.getText());
+        });
+        
         GridPane form = new GridPane();
         form.setHgap(10);
         form.setVgap(10);
         form.add(usernameField, 1, 0);
         form.add(passwordField, 1, 1);
+        form.add(loginButton, 0, 2);
         
         // Tambahkan ke Root
         root.getChildren().addAll(form);
