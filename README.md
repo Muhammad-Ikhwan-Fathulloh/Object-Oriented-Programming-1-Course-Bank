@@ -61,15 +61,13 @@
 
 ## Sesi 10: Graphic User Interface (GUI)
 [Dokumentasi NetBeans](https://netbeans.apache.org/tutorial/main/kb/docs/java/gui-functionality/)
-[Lihat Penjelasan](#)
 
 ---
 
 ## Sesi 11: JavaFX
 [Dokumentasi NetBeans](https://netbeans.apache.org/tutorial/main/tutorials/nbm-javafx/)
-[Lihat Penjelasan](#)
 
 ---
 
-## Sesi 12: Proyek
-[Lihat Penjelasan](#)
+## Sesi 12: Boilerplate JavaFX
+[Boilerplate JavaFX](https://github.com/Muhammad-Ikhwan-Fathulloh/Boilerplate-JavaFX-Dashboard)
